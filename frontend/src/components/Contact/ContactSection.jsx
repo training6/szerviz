@@ -20,8 +20,8 @@ function ContactSection({ buttonLabel, primary, dark, dark2 }) {
           <ContactSection1>
           <ContactDiv>
             <ContactP>Szervizcentrum</ContactP>
-            <Contact3P>H-P: 10:00-16:00</Contact3P>
-            <Contact2P>1115 Budapest, Bartók Béla u. 124.</Contact2P>
+            <Contact3P>H-P: 12:00-16:00</Contact3P>
+            <Contact2P>1115 Budapest, Bartók Béla út 124.</Contact2P>
             <Contact1P href='tel:+3612062553'>Tel: +36-1-206-2553</Contact1P>
             <Contact2A href='tel:+36309410658'>Mobil: +36-30-941-0658</Contact2A>
             <Contact1A href='mailto:szerviz@szervizcentrum.hu'>E-mail: szerviz@szervizcentrum.hu</Contact1A>

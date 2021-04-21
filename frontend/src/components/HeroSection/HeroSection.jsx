@@ -22,7 +22,7 @@ function HeroSection() {
         <HeroWrapper>
         {/*<HeroH1>Szervizcentrum</HeroH1>*/}
         <HeroH1>TV Szerviz</HeroH1>
-        <HeroP1>1115 Budapest, Bartók Béla u.124.</HeroP1>
+        <HeroP1>1115 Budapest, Bartók Béla út 124.</HeroP1>
         <HeroP href='tel:+3612062553'>Telefon: +36-1-206-2553</HeroP>
         <HeroP href='tel: +36309410658'>Mobil: +36-30-941-0658</HeroP>
         </HeroWrapper>
