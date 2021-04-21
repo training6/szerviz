@@ -1,12 +1,14 @@
-.wrapper {
+.form {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
+  flex-direction: column;
 }
 
 
 .rowM {
+  
   position: relative;
   width: 18rem;
   height: 2.5rem;

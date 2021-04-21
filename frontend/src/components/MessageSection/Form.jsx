@@ -56,18 +56,17 @@ function Form() {
 */
 
   return(
-    <div className="wrapper">
 <form className='form' onSubmit={sendEmail}>
   <div className="rowM">
-<input type="text" id="name" className="forminput"  name="name" placeholder=" " required/>
+<input type="text" id="name" className="forminput"  name="name" placeholder="" required/>
 <label htmlFor="name" className="formlabel">Név</label>
 </div>
 <div className="rowM">
-<input type="tel" id="phone" className="forminput"  name="phone" placeholder=" " required/>
+<input type="tel" id="phone" className="forminput"  name="phone" placeholder="" required/>
 <label htmlFor="phone" className="formlabel">Telefon</label>
 </div>
 <div className="rowM">
-<input type="email" id="email" className="forminput"  name="email" placeholder=" " required />
+<input type="email" id="email" className="forminput"  name="email" placeholder="" required />
 <label htmlFor="email" className="formlabel">Email</label>
 </div>
 <div className="rowMT">
@@ -79,7 +78,6 @@ function Form() {
   </input>
 </div>
 </form>
-</div>
 )
 }
 
