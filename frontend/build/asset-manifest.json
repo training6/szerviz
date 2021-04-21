@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/szerviz/static/css/main.b6aed1b6.chunk.css",
+    "main.js": "/szerviz/static/js/main.b259acd8.chunk.js",
+    "main.js.map": "/szerviz/static/js/main.b259acd8.chunk.js.map",
+    "runtime-main.js": "/szerviz/static/js/runtime-main.805107ff.js",
+    "runtime-main.js.map": "/szerviz/static/js/runtime-main.805107ff.js.map",
+    "static/js/2.8bbd48a7.chunk.js": "/szerviz/static/js/2.8bbd48a7.chunk.js",
+    "static/js/2.8bbd48a7.chunk.js.map": "/szerviz/static/js/2.8bbd48a7.chunk.js.map",
+    "static/js/3.20178bbc.chunk.js": "/szerviz/static/js/3.20178bbc.chunk.js",
+    "static/js/3.20178bbc.chunk.js.map": "/szerviz/static/js/3.20178bbc.chunk.js.map",
+    "index.html": "/szerviz/index.html",
+    "static/css/main.b6aed1b6.chunk.css.map": "/szerviz/static/css/main.b6aed1b6.chunk.css.map",
+    "static/js/2.8bbd48a7.chunk.js.LICENSE.txt": "/szerviz/static/js/2.8bbd48a7.chunk.js.LICENSE.txt",
+    "static/media/LED_TVs.ac2acd9f.png": "/szerviz/static/media/LED_TVs.ac2acd9f.png",
+    "static/media/lcd-brands.jpg": "/szerviz/static/media/lcd-brands.9244f41f.jpg",
+    "static/media/plasma-tv-oled.5924f5ae.jpg": "/szerviz/static/media/plasma-tv-oled.5924f5ae.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.805107ff.js",
+    "static/js/2.8bbd48a7.chunk.js",
+    "static/css/main.b6aed1b6.chunk.css",
+    "static/js/main.b259acd8.chunk.js"
+  ]
+}

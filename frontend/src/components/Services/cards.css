@@ -1,0 +1,168 @@
+
+.row {
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  grid-gap: 16px;
+}
+
+
+  @media screen and (max-width: 1150px) {
+    .row {
+      width: 75%;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+
+  
+    }
+  }
+
+
+
+  @media screen and (max-width: 768px) {
+    .row {
+      width: 55%;
+      grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  
+    }
+  }
+  
+
+
+.col {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.col:hover{
+  transform: scale(1.03);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.cardTrans {
+  background-color: transparent;
+  max-width: 100%;
+  height: 300px;
+  perspective: 1000px;
+}
+
+@media screen and (max-width: 480px) {
+  .cardTrans {
+  height: 200px;
+  }
+
+}
+
+
+.front,.back {
+  backface-visibility:hidden;
+  transition: transform .6s linear;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  border-style: solid;
+
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  position: absolute;
+
+  
+  
+
+}
+  @media screen and (max-width: 768px) {
+    .front,.back {
+    padding: 25px;
+    height: 200px;
+    }
+  }
+
+
+.front {
+  background: #0e153a;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  transform: perspective(600px) rotateY(0deg);
+}
+
+
+.back {
+  background:#e2f3f5;
+  transform: perspective(600px) rotateY(-180deg); 
+}
+
+.card.rotated > .front {
+  transform: perspective(600px) rotateY(180deg);
+}
+.card.rotated > .back { 
+  transform: perspective(600px) rotateY(0deg);
+
+}  
+
+.card.rotated1 > .front {
+  transform: perspective(600px) rotateY(180deg);
+}
+.card.rotated1 > .back { 
+  transform: perspective(600px) rotateY(0deg);
+}  
+
+.card.rotated2 > .front {
+  transform: perspective(600px) rotateY(180deg);
+}
+.card.rotated2 > .back { 
+  transform: perspective(600px) rotateY(0deg);
+}  
+
+.card.rotated3 > .front {
+  transform: perspective(600px) rotateY(180deg);
+}
+.card.rotated3 > .back { 
+  transform: perspective(600px) rotateY(0deg);
+}  
+
+.h2flip {
+
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.pflip {
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.h2flipb {
+
+  color: #0e153a;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.pflipb {
+  color: #0e153a;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.imgflip {
+  height: 160px;
+  width: 160px;
+  margin-bottom: 20px;
+
+}
+
+@media screen and (max-width: 480px) {
+  .imgflip {
+    width: 85%;
+    height: 65%;
+
+  }
+}
