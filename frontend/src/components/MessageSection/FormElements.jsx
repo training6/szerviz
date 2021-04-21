@@ -39,7 +39,7 @@ export const FormInput = styled.input`
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
-  max-width: 100%;
+  max-width: 300px;
 `;
 
 export const FormButton = styled.input`
