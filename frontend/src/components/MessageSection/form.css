@@ -57,7 +57,7 @@
 .formlabel{
   position: absolute;
   left: 1rem;
-  top: 0.8rem;
+  bottom: 2rem;
   padding: 0 0.5rem;
   color: black;
   cursor: text;
@@ -75,14 +75,14 @@
 
 }
 
-
+/*
 .forminput:focus ~ .formlabel,
 .forminput:not(:placeholder-shown).forminput:not(:focus)
 ~.formlabel {
 top: -0.5rem;
 font-size: 0.8rem;
 left: 0.8rem;
-}
+}*/
 
 .submit {
   position: relative;
