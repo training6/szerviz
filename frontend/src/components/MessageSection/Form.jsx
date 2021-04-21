@@ -27,28 +27,28 @@ function Form() {
 
 
   function myStyle(e) {
-    if (e.target.value === '')
+    if (e.target.value === ' ')
     setStyle ({borderBottom: '2px solid #0e153a'});
     else
     setStyle ({ border: '2px solid #0e153a', borderRadius: '5px'});
   }
 
   function myStyle1(e) {
-    if (e.target.value === '')
+    if (e.target.value === ' ')
     setStyle1 ({borderBottom: '2px solid #0e153a'});
     else
     setStyle1 ({ border: '2px solid #0e153a', borderRadius: '5px'});
   }
 
   function myStyle2(e) {
-    if (e.target.value === '')
+    if (e.target.value === ' ')
     setStyle2 ({borderBottom: '2px solid #0e153a'});
     else
     setStyle2 ({ border: '2px solid #0e153a', borderRadius: '5px'});
   }
 
   function myStyle3(e) {
-    if (e.target.value === '')
+    if (e.target.value === ' ')
     setStyle3 ({borderBottom: '2px solid #0e153a'});
     else
     setStyle3 ({ border: '2px solid #0e153a', borderRadius: '5px'});
