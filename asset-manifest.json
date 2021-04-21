@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/szerviz/static/css/main.5d7c4714.chunk.css",
+    "main.css": "/szerviz/static/css/main.8e48f2a6.chunk.css",
     "main.js": "/szerviz/static/js/main.0d6a8c84.chunk.js",
     "main.js.map": "/szerviz/static/js/main.0d6a8c84.chunk.js.map",
     "runtime-main.js": "/szerviz/static/js/runtime-main.805107ff.js",
@@ -10,7 +10,7 @@
     "static/js/3.20178bbc.chunk.js": "/szerviz/static/js/3.20178bbc.chunk.js",
     "static/js/3.20178bbc.chunk.js.map": "/szerviz/static/js/3.20178bbc.chunk.js.map",
     "index.html": "/szerviz/index.html",
-    "static/css/main.5d7c4714.chunk.css.map": "/szerviz/static/css/main.5d7c4714.chunk.css.map",
+    "static/css/main.8e48f2a6.chunk.css.map": "/szerviz/static/css/main.8e48f2a6.chunk.css.map",
     "static/js/2.8bbd48a7.chunk.js.LICENSE.txt": "/szerviz/static/js/2.8bbd48a7.chunk.js.LICENSE.txt",
     "static/media/LED_TVs.ac2acd9f.png": "/szerviz/static/media/LED_TVs.ac2acd9f.png",
     "static/media/lcd-brands.jpg": "/szerviz/static/media/lcd-brands.9244f41f.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.805107ff.js",
     "static/js/2.8bbd48a7.chunk.js",
-    "static/css/main.5d7c4714.chunk.css",
+    "static/css/main.8e48f2a6.chunk.css",
     "static/js/main.0d6a8c84.chunk.js"
   ]
 }
