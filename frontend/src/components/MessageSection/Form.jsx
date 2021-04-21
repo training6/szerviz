@@ -63,15 +63,15 @@ function Form() {
 <label htmlFor="name" className="formlabel">Név</label>
 </div>
 <div className="rowM">
-<input type="tel" id="phone" className="forminput" autoComplete='off' name="phone" placeholder=" " required/>
+<input type="tel" id="phone" className="forminput"  name="phone" placeholder=" " required/>
 <label htmlFor="phone" className="formlabel">Telefon</label>
 </div>
 <div className="rowM">
-<input type="email" id="email" className="forminput" autoComplete='off' name="email" placeholder=" " required />
+<input type="email" id="email" className="forminput"  name="email" placeholder=" " required />
 <label htmlFor="email" className="formlabel">Email</label>
 </div>
 <div className="rowMT">
-  <textarea htmlFor="messages" type="text" className="forminput" autoComplete='off' name="messages" placeholder="Üzenet..." required ></textarea>
+  <textarea htmlFor="messages" type="text" className="forminput" name="messages" placeholder="Üzenet..." required ></textarea>
 
 </div>
 <div className="rowB">
