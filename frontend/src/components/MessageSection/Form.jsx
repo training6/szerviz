@@ -59,7 +59,7 @@ function Form() {
     <div className="wrapper">
 <form className='form' onSubmit={sendEmail}>
   <div className="rowM">
-<input type="text" id="name" className="forminput" autoComplete='off' name="name" placeholder=" " required/>
+<input type="text" id="name" className="forminput"  name="name" placeholder=" " required/>
 <label htmlFor="name" className="formlabel">Név</label>
 </div>
 <div className="rowM">
