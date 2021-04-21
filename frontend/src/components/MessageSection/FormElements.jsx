@@ -40,7 +40,6 @@ export const FormInput = styled.input`
   border: none;
   border-radius: 4px;
   max-width: 300px;
-  visible: none;
 `;
 
 export const FormButton = styled.input`
