@@ -59,19 +59,19 @@ function Form() {
     <div className="wrapper">
 <form className='form' onSubmit={sendEmail}>
   <div className="rowM">
-<input style={style} onChange={myStyle} type="text" id="name" className="form__input" autoComplete='off' name="name" placeholder=" " required/>
-<label htmlFor="name" className="form__label">Név</label>
+<input style={style} onChange={myStyle} type="text" id="name" className="forminput" autoComplete='off' name="name" placeholder=" " required/>
+<label htmlFor="name" className="formlabel">Név</label>
 </div>
 <div className="rowM">
-<input style={style1} onChange={myStyle1} type="tel" id="phone" className="form__input" autoComplete='off' name="phone" placeholder=" " required/>
-<label htmlFor="phone" className="form__label">Telefon</label>
+<input style={style1} onChange={myStyle1} type="tel" id="phone" className="forminput" autoComplete='off' name="phone" placeholder=" " required/>
+<label htmlFor="phone" className="formlabel">Telefon</label>
 </div>
 <div className="rowM">
-<input style={style2} onChange={myStyle2} type="email" id="email" className="form__input" autoComplete='off' name="email" placeholder=" " required />
-<label htmlFor="email" className="form__label">Email</label>
+<input style={style2} onChange={myStyle2} type="email" id="email" className="forminput" autoComplete='off' name="email" placeholder=" " required />
+<label htmlFor="email" className="formlabel">Email</label>
 </div>
 <div className="rowMT">
-  <textarea style={style3} onChange={myStyle3} htmlFor="messages" type="text" className="form__input" autoComplete='off' name="messages" placeholder="Üzenet..." required ></textarea>
+  <textarea style={style3} onChange={myStyle3} htmlFor="messages" type="text" className="forminput" autoComplete='off' name="messages" placeholder="Üzenet..." required ></textarea>
 
 </div>
 <div className="rowB">

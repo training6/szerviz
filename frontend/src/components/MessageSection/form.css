@@ -28,7 +28,7 @@
   margin: 20px;
 }
 
-.form__input{
+.forminput{
   position: absolute;
   top: 0;
   left: 0;
@@ -43,18 +43,18 @@
   background: none;
 }
 
-.form__input:active {
+.forminput:active {
   border: 2px solid #0e153a;
   border-radius: 5px;
 }
 
- .form__input:focus {
+ .forminput:focus {
    border: 2px solid #0e153a;
    border-radius: 5px;
   }
 
 
-.form__label{
+.formlabel{
   position: absolute;
   left: 1rem;
   top: 0.8rem;
@@ -76,9 +76,9 @@
 }
 
 
-.form__input:focus ~ .form__label,
-.form__input:not(:placeholder-shown).form__input:not(:focus)
-~.form__label {
+.forminput:focus ~ .formlabel,
+.forminput:not(:placeholder-shown).forminput:not(:focus)
+~.formlabel {
 top: -0.5rem;
 font-size: 0.8rem;
 left: 0.8rem;
