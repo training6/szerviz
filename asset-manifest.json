@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/szerviz/static/css/main.c01e1b25.chunk.css",
-    "main.js": "/szerviz/static/js/main.167dc7a0.chunk.js",
-    "main.js.map": "/szerviz/static/js/main.167dc7a0.chunk.js.map",
-    "runtime-main.js": "/szerviz/static/js/runtime-main.805107ff.js",
-    "runtime-main.js.map": "/szerviz/static/js/runtime-main.805107ff.js.map",
-    "static/js/2.5f345fd5.chunk.js": "/szerviz/static/js/2.5f345fd5.chunk.js",
-    "static/js/2.5f345fd5.chunk.js.map": "/szerviz/static/js/2.5f345fd5.chunk.js.map",
-    "static/js/3.20178bbc.chunk.js": "/szerviz/static/js/3.20178bbc.chunk.js",
-    "static/js/3.20178bbc.chunk.js.map": "/szerviz/static/js/3.20178bbc.chunk.js.map",
+    "main.css": "/szerviz/static/css/main.a719a740.chunk.css",
+    "main.js": "/szerviz/static/js/main.860794f2.chunk.js",
+    "main.js.map": "/szerviz/static/js/main.860794f2.chunk.js.map",
+    "runtime-main.js": "/szerviz/static/js/runtime-main.8cd4bf23.js",
+    "runtime-main.js.map": "/szerviz/static/js/runtime-main.8cd4bf23.js.map",
+    "static/js/2.b121289b.chunk.js": "/szerviz/static/js/2.b121289b.chunk.js",
+    "static/js/2.b121289b.chunk.js.map": "/szerviz/static/js/2.b121289b.chunk.js.map",
+    "static/js/3.57f71159.chunk.js": "/szerviz/static/js/3.57f71159.chunk.js",
+    "static/js/3.57f71159.chunk.js.map": "/szerviz/static/js/3.57f71159.chunk.js.map",
     "index.html": "/szerviz/index.html",
-    "static/css/main.c01e1b25.chunk.css.map": "/szerviz/static/css/main.c01e1b25.chunk.css.map",
-    "static/js/2.5f345fd5.chunk.js.LICENSE.txt": "/szerviz/static/js/2.5f345fd5.chunk.js.LICENSE.txt",
+    "static/css/main.a719a740.chunk.css.map": "/szerviz/static/css/main.a719a740.chunk.css.map",
+    "static/js/2.b121289b.chunk.js.LICENSE.txt": "/szerviz/static/js/2.b121289b.chunk.js.LICENSE.txt",
     "static/media/LED_TVs.ac2acd9f.png": "/szerviz/static/media/LED_TVs.ac2acd9f.png",
     "static/media/lcd-brands.jpg": "/szerviz/static/media/lcd-brands.9244f41f.jpg",
     "static/media/plasma-tv-oled.5924f5ae.jpg": "/szerviz/static/media/plasma-tv-oled.5924f5ae.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.805107ff.js",
-    "static/js/2.5f345fd5.chunk.js",
-    "static/css/main.c01e1b25.chunk.css",
-    "static/js/main.167dc7a0.chunk.js"
+    "static/js/runtime-main.8cd4bf23.js",
+    "static/js/2.b121289b.chunk.js",
+    "static/css/main.a719a740.chunk.css",
+    "static/js/main.860794f2.chunk.js"
   ]
 }
