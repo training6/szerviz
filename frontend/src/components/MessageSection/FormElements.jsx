@@ -13,6 +13,7 @@ export const MessageForm = styled.form`
   padding: 80px 32px;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+  position: absolute;
 
   @media screen and (max-width: 400px) {
     padding: 32px 32px;
@@ -40,6 +41,7 @@ export const FormInput = styled.input`
   border: none;
   border-radius: 4px;
   max-width: 300px;
+  position: relative;
 `;
 
 export const FormButton = styled.input`
