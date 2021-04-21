@@ -1,10 +1,10 @@
-import React from 'react';
-import './form.css';
+import React from 'react'
 import emailjs from 'emailjs-com';
+import { MessageForm, FormH1, FormLabel, FormInput, FormText, FormButton } from './FormElements';
+
 
 
 function Form() {
-
 
   function sendEmail(e) {
     e.preventDefault();
@@ -19,66 +19,19 @@ function Form() {
     });
       e.target.reset();
   }
-/*
-  const [style, setStyle] = useState({});
-  const [style1, setStyle1] = useState({});
-  const [style2, setStyle2] = useState({});
-  const [style3, setStyle3] = useState({});
 
-
-  function myStyle(e) {
-    if (e.target.value === ' ')
-    setStyle ({borderBottom: '2px solid #0e153a'});
-    else
-    setStyle ({ border: '2px solid #0e153a', borderRadius: '5px'});
-  }
-
-  function myStyle1(e) {
-    if (e.target.value === ' ')
-    setStyle1 ({borderBottom: '2px solid #0e153a'});
-    else
-    setStyle1 ({ border: '2px solid #0e153a', borderRadius: '5px'});
-  }
-
-  function myStyle2(e) {
-    if (e.target.value === ' ')
-    setStyle2 ({borderBottom: '2px solid #0e153a'});
-    else
-    setStyle2 ({ border: '2px solid #0e153a', borderRadius: '5px'});
-  }
-
-  function myStyle3(e) {
-    if (e.target.value === ' ')
-    setStyle3 ({borderBottom: '2px solid #0e153a'});
-    else
-    setStyle3 ({ border: '2px solid #0e153a', borderRadius: '5px'});
-  }
-*/
-
-  return(
-<form className='form' onSubmit={sendEmail}>
-  <div className="rowM">
-<input type="text" id="name" className="forminput"  name="name" placeholder="" required/>
-<label htmlFor="name" className="formlabel">Név</label>
-</div>
-<div className="rowM">
-<input type="tel" id="phone" className="forminput"  name="phone" placeholder="" required/>
-<label htmlFor="phone" className="formlabel">Telefon</label>
-</div>
-<div className="rowM">
-<input type="email" id="email" className="forminput"  name="email" placeholder="" required />
-<label htmlFor="email" className="formlabel">Email</label>
-</div>
-<div className="rowMT">
-  <textarea htmlFor="messages" type="text" className="forminput" name="messages" placeholder="Üzenet..." required ></textarea>
-
-</div>
-<div className="rowB">
-<input type="submit" className="submit" value="Hibabejelentés">
-  </input>
-</div>
-</form>
-)
+  return (
+<MessageForm onSubmit={sendEmail}>
+          <FormH1>Hibabejelentés</FormH1>
+          <FormLabel htmlFor='for'>Név</FormLabel>
+          <FormInput type='text' name='name' required></FormInput>
+          <FormLabel htmlFor='for'>Telefon</FormLabel>
+          <FormInput type='tel' name='phone' required></FormInput>
+          <FormLabel htmlFor='for'>Email</FormLabel>
+          <FormInput type='email' name='email' required></FormInput>
+          <FormText htmlFor='for' type="text" name='messages' required></FormText>
+          <FormButton type='submit' value='Hibabejelentés'></FormButton>
+          </MessageForm>
+  )
 }
-
 export default Form
