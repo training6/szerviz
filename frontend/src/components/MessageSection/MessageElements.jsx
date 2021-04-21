@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const MessageContainer = styled.div`
   height: 800px;
-  backgrond: 'black';
-  margin-top: -25px;
+  background: #e2f3f5;
+  position: relative;
 `;
 
 export const FormWrap = styled.div`
