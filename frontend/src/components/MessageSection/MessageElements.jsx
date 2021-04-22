@@ -8,7 +8,7 @@ justify-content: center;
 align-items: center;
 background: #e2f3f5;
 
-@media screen and (max-width? 480px) {
+@media screen and (max-width: 480px) {
   height: 800px
 }
 `;
