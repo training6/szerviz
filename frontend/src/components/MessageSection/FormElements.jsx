@@ -35,8 +35,11 @@ export const FormInput = styled.input`
   outline: none;
   padding: 1.25rem;
   background: none;
-  font-size: 1rem
+  font-size: 1rem;
 
+  @media screen and (max-width: 480px) {
+    width: 200px;
+  }
 `;
 
 
@@ -63,7 +66,7 @@ export const FormButton = styled.input`
 position: relative;
 width: 18rem;
 height: 2.5rem;
-margin: 20px;
+/*margin: 20px;*/
 border-radius: 50px;
 background: #01bf71;
 white-space: nowrap;
