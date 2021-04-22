@@ -30,8 +30,8 @@ export const FormInput = styled.input`
   left: 0;
   width: 100%;
   height: 100%;
-  /*border: 2px solid #0e153a;
-  border-radius: 5px;*/
+  /*border: 2px solid #0e153a;*/
+  border-radius: 0px;
   outline: none;
   padding: 1.25rem;
   background: none;
@@ -41,6 +41,11 @@ export const FormInput = styled.input`
 
   @media screen and (max-width: 480px) {
     width: 18rem;
+  }
+
+  &::placeholder {
+    font-size: 12px;
+    color: #0e153a;
   }
 `;
 
