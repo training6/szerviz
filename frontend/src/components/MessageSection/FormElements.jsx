@@ -30,12 +30,14 @@ export const FormInput = styled.input`
   left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid #0e153a;
-  border-radius: 5px;
+  /*border: 2px solid #0e153a;
+  border-radius: 5px;*/
   outline: none;
   padding: 1.25rem;
   background: none;
   font-size: 1rem;
+  border: none;
+  border-bottom: 2px solid #0e153a;
 
   @media screen and (max-width: 480px) {
     width: 18rem;
