@@ -35,6 +35,7 @@ export const FormInput = styled.input`
   outline: none;
   padding: 1.25rem;
   background: none;
+  font-size: 1rem
 
 `;
 
