@@ -3,62 +3,83 @@ import styled from 'styled-components';
 
 
 export const MessageForm = styled.form`
-  background: #010101;
-  max-width: 300px;
-  height: 80%;
-  /*width: 100%;*/
-  z-index: 1;
-  display: grid;
-  margin: 0 auto;
-  padding: 80px 32px;
-  border-radius: 4px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  flex-direction: column;
+`;
+
+export const RowM = styled.div`
   position: relative;
-  box-sizing: border-box;
+  width: 18rem;
+  height: 2.8rem;
+  margin: 20px;
+`;
 
-  @media screen and (max-width: 400px) {
-    padding: 32px 32px;
-  }
+export const RowMT = styled.div`
+  position: relative;
+  width: 18rem;
+  height: 9rem;
+  margin: 20px;
+`;
+
+export const FormInput = styled.input`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #0e153a;
+  border-radius: 5px;
+  outline: none;
+  padding: 1.25rem;
+  background: none;
 
 `;
 
-
-export const FormH1 = styled.h1`
-  margin-bottom: 40px;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 400;
-  text-align: center;
-`;
 
 export const FormLabel = styled.label`
-  margin-bottom: 8px;
-  font-size: 14px;
-  color: #fff;
+  position: absolute;
+  left: 1rem;
+  bottom: 2.3rem;
+  padding: 0 0.5rem;
+  color: black;
+  cursor: text;
+  background-color: #e2f3f5;
+  font-size: 12px;
 `;
-export const FormInput = styled.input`
-  padding: 16px 16px;
-  margin-bottom: 32px;
-  border: none;
-  border-radius: 4px;
-  /*position: relative;*/
-  display: block;
-  box-sizing: border-box;
+
+
+
+export const RowB = styled.div`
+  position: relative;
+  height: 2.5rem;
+  margin: 20px;
 `;
 
 export const FormButton = styled.input`
-  background: #01bf71;
-  padding: 16px 0;
-  border: none;
-  border-radius: 4px;
-  color: #fff;
-  font-size: 20px;
-  cursor: pointer;
+position: relative;
+width: 18rem;
+height: 2.5rem;
+margin: 20px;
+border-radius: 50px;
+background: #01bf71;
+white-space: nowrap;
+padding: 12px 30px; 
+color: #010606;
+font-size: 16px;
+outline: none;
+border: none;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all 0.2s ease-in-out;
+
+&:hover {
+  transition: all 0.2s ease-in-out; 
+  background: #fff;
+}
 `;
 
-export const FormText = styled.textarea`
-  padding: 32px 32px;
-  margin-bottom: 32px;
-  border: none;
-  border-radius: 4px;
-`

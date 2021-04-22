@@ -1,32 +1,28 @@
 import styled from 'styled-components';
 
 export const MessageContainer = styled.div`
-  height: 800px;
-  background: #e2f3f5;
-  /*position: relative;*/
+height: 800px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: #e2f3f5;
+
+@media screen and (max-width? 480px) {
+  height: 800px
+}
 `;
 
-export const FormWrap = styled.div`
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  @media screen and (max-width: 400px) {
-    height: 100%;
+export const MessageH1 = styled.h1`
+  font-size: 1.5rem;
+  color: #01bf71;
+  text-transform: uppercase;
+  margin-top: -25px;
+  margin-bottom: 44px;
   }
 `;
-export const FormContent = styled.div`
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 
-  @media screen and (max-width: 400px) {
-    padding: 10px;
-  }
 
-`;
 
 
 

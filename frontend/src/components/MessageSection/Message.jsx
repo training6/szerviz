@@ -1,5 +1,5 @@
 import React from 'react'
-import { MessageContainer, FormWrap, FormContent } from './MessageElements';
+import { MessageContainer, MessageH1 } from './MessageElements';
 import Form from './Form';
 
 function Message() {
@@ -7,11 +7,8 @@ function Message() {
   return (
     <>
     <MessageContainer id='message'>
-      <FormWrap>
-        <FormContent>
+    <MessageH1>Hibabejelentés</MessageH1>
           <Form />
-          </FormContent>
-      </FormWrap>
     </MessageContainer>
       
     </>

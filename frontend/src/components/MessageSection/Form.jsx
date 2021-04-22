@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import emailjs from 'emailjs-com';
-import { MessageForm, FormH1, FormLabel, FormInput, FormText, FormButton } from './FormElements';
+import { MessageForm, FormLabel, FormInput, RowM, RowMT, RowB, FormButton } from './FormElements';
 
 
 
@@ -20,18 +20,61 @@ function Form() {
       e.target.reset();
   }
 
+  const [style, setStyle] = useState({});
+  const [style1, setStyle1] = useState({});
+  const [style2, setStyle2] = useState({});
+  const [style3, setStyle3] = useState({});
+
+
+  function myStyle(e) {
+    if (e.target.value === ' ')
+    setStyle ({borderBottom: '2px solid #0e153a'});
+    else
+    setStyle ({ border: '2px solid #0e153a', borderRadius: '5px'});
+  }
+
+  function myStyle1(e) {
+    if (e.target.value === ' ')
+    setStyle1 ({borderBottom: '2px solid #0e153a'});
+    else
+    setStyle1 ({ border: '2px solid #0e153a', borderRadius: '5px'});
+  }
+
+  function myStyle2(e) {
+    if (e.target.value === ' ')
+    setStyle2 ({borderBottom: '2px solid #0e153a'});
+    else
+    setStyle2 ({ border: '2px solid #0e153a', borderRadius: '5px'});
+  }
+
+  function myStyle3(e) {
+    if (e.target.value === ' ')
+    setStyle3 ({borderBottom: '2px solid #0e153a'});
+    else
+    setStyle3 ({ border: '2px solid #0e153a', borderRadius: '5px'});
+  }
+
   return (
-<MessageForm onSubmit={sendEmail}>
-          <FormH1>Hibabejelentés</FormH1>
-          <FormLabel htmlFor='for'>Név</FormLabel>
-          <FormInput type='text' name='name' required></FormInput>
-          <FormLabel htmlFor='for'>Telefon</FormLabel>
-          <FormInput type='tel' name='phone' required></FormInput>
-          <FormLabel htmlFor='for'>Email</FormLabel>
-          <FormInput type='email' name='email' required></FormInput>
-          <FormText htmlFor='for' type="text" name='messages' required></FormText>
-          <FormButton type='submit' value='Hibabejelentés'></FormButton>
-          </MessageForm>
+    <MessageForm onSubmit={sendEmail}>
+      <RowM>
+        <FormInput style={style} onChange={myStyle} type='text' name='name' placeholder="" required></FormInput>
+        <FormLabel htmlFor='name'>Név</FormLabel>
+      </RowM>
+      <RowM>
+        <FormInput style={style1} onChange={myStyle1} type='tel' name='phone' placeholder="" required></FormInput>
+        <FormLabel htmlFor='phone'>Telefon</FormLabel>
+      </RowM>
+      <RowM> 
+        <FormInput style={style2} onChange={myStyle2} type='email' name='email' required></FormInput>   
+        <FormLabel htmlFor='email'>Email</FormLabel>
+      </RowM>
+      <RowMT>    
+        <FormInput style={style3} onChange={myStyle3} htmlFor='messages' type="text" name='messages' placeholder="Üzenet..." required></FormInput>
+      </RowMT>  
+      <RowB>
+        <FormButton type='submit' value='Hibabejelentés'></FormButton>
+      </RowB>     
+    </MessageForm>
   )
 }
 export default Form
