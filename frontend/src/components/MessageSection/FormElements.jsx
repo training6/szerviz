@@ -38,7 +38,7 @@ export const FormInput = styled.input`
   font-size: 1rem;
 
   @media screen and (max-width: 480px) {
-    width: 300px;
+    width: 280px;
   }
 `;
 
