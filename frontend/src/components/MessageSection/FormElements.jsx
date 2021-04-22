@@ -5,7 +5,7 @@ import styled from 'styled-components';
 export const MessageForm = styled.form`
   background: #010101;
   max-width: 300px;
-  height: auto;
+  height: 80%;
   /*width: 100%;*/
   z-index: 1;
   display: grid;
@@ -13,6 +13,8 @@ export const MessageForm = styled.form`
   padding: 80px 32px;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+  position: relative;
+  box-sizing: border-box;
 
   @media screen and (max-width: 400px) {
     padding: 32px 32px;
@@ -39,8 +41,9 @@ export const FormInput = styled.input`
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
-  max-width: 300px;
-  position: relative;
+  /*position: relative;*/
+  display: block;
+  box-sizing: border-box;
 `;
 
 export const FormButton = styled.input`
