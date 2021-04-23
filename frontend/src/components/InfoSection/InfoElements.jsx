@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#0e153a')};
-  height: 780px;
+  height: 1200px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -12,6 +12,7 @@ export const InfoContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     /*padding: 100px 0;*/
+    height: 780px;
 
   }
 `;
