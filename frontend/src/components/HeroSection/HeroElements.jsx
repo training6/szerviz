@@ -5,7 +5,7 @@ export const HeroContainer = styled.div`
   background: #e2f3f5;
   display: flex;
   justify-content: center;
-  height: 800px;
+  height: 1200px;
   position: relative;
   z-index: 1;
 
@@ -34,10 +34,12 @@ export const HeroBg = styled.div`
 
   @media screen and (max-width: 1000px) {
     top: 200px;
+    height: 800px;
   }
 
   @media screen and (max-width: 768px) {
     top: 300px;
+    height: 800px;
   }
 `
 
