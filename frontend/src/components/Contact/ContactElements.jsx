@@ -25,6 +25,7 @@ export const ContactH1 = styled.h1`
   text-transform: uppercase;
   margin-top: -25px;
   margin-bottom: 44px;
+  text-align: center;
 
   @media screen and (max-width: 480px) {
     font-size: 1rem;
@@ -78,6 +79,11 @@ padding: 0;
 margin-bottom: 35px;
 width: 300px;
 float: left;
+
+@media screen and (max-width: 1000px) {
+  text-align: center;
+}
+
 `;
 
 export const Contact1A = styled.a`
@@ -88,6 +94,11 @@ margin: 0;
 width: 300px;
 float: left;
 line-height: 2rem;
+
+@media screen and (max-width: 1000px) {
+  text-align: center;
+}
+
 `;
 
 export const Contact2A = styled.a`
@@ -99,6 +110,11 @@ width: 300px;
 float: left;
 line-height: 2rem;
 text-decoration: none;
+
+@media screen and (max-width: 1000px) {
+  text-align: center;
+}
+
 `;
 
 export const Contact2P = styled.p`
@@ -109,6 +125,11 @@ margin: 0 0 25px 0;
 width: 300px;
 float: left;
 text-decoration: none;
+
+@media screen and (max-width: 1000px) {
+  text-align: center;
+}
+
 
 `;
 
@@ -121,6 +142,11 @@ margin: 0;
 width: 300px;
 float: left;
 text-decoration: none;
+
+@media screen and (max-width: 1000px) {
+  text-align: center;
+}
+
 
 `;
 
@@ -135,6 +161,11 @@ margin: 0 0 10px 0;
 width: 300px;
 float: left;
 text-decoration: none;
+
+@media screen and (max-width: 1000px) {
+  text-align: center;
+}
+
 
 `;
 

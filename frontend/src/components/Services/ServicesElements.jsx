@@ -11,12 +11,12 @@ export const ServicesContainer = styled.div`
   z-index: 1;
 
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1150px) {
     height: 1100px;
   }
 
   @media screen and (max-width: 768px) {
-    height: 1500px;
+    height: 1700px;
   }
 
   @media screen and (max-width: 480px) {
