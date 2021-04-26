@@ -43,6 +43,7 @@ export const ContactWrapper = styled.div`
 
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr;
+    padding: 0px;
   }
 
 `;
